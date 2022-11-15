@@ -4,6 +4,10 @@
 It has been difficult for Whitworth University recreation department to develop ideal schedules that allow each intramural team to play at least once or twice a week and match up with another team. I discovered the best optimum pair solutions by applying the Bipartite Matching Algorithm. Data received from the quadratics survey are saved in CSV files.
 
 ## Bipartie Matching Algorithm
+![image](https://user-images.githubusercontent.com/63217569/202000412-ac494f37-f5ea-46e9-adc6-8acca2313854.png)
+![image](https://user-images.githubusercontent.com/63217569/202000434-2b9081ee-9542-42c0-ac42-b607630e7801.png)
+![image](https://user-images.githubusercontent.com/63217569/202000452-3f590e6b-474e-48e7-854d-4a926ad30f4a.png)
+
 Finding the maximum matching in a bipartite graph is possible through bipartite matching. In order to expand the size of the matching, the algorithm iteratively searches the network for augmenting pathways. In a graph, a matching is a collection of edges where no two edges meet at the same endpoint. A matching with the most edges is referred to as a maximum matching.
 
 The method begins by looking for a random matching M. A path that alternates between edges in M and edges not in M and starts and finishes at mismatched vertices is known as an augmenting path. In the event that such a path is discovered, the algorithm increases the matching by flipping the edges along the path, producing a greater matching. When there is no longer an augmenting path, the procedure is repeated, at which time the algorithm has discovered a maximum matching.
